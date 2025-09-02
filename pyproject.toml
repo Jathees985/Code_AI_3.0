@@ -1,0 +1,20 @@
+[project]
+name = "jac-impl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.10.0",
+    "bitsandbytes>=0.47.0",
+    "datasets>=4.0.0",
+    "jaclang>=0.8.5",
+    "mtllm>=0.4.0",
+    "numpy>=2.3.2",
+    "pandas>=2.3.2",
+    "peft>=0.17.1",
+    "pygame>=2.6.1",
+    "torch>=2.8.0",
+    "transformers>=4.55.4",
+    "trl>=0.21.0",
+]
